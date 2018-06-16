@@ -1,0 +1,15 @@
+{{ partial "htmlhead" . }}
+    <div class="container">
+      {{ range (.Site.GetPage "section" .Section).Sections  }}
+        <h2>{{ .Title }}</h2>
+        <ul>
+          {{ range .Data.Pages }}
+             <li>
+               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+             </li>
+          {{ end }}
+        </ul>
+      {{end}}
+    </div>
+  </body>
+</html>
