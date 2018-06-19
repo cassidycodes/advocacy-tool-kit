@@ -1,0 +1,8 @@
+[submodule "advocacy-tool-kit"]
+	path = advocacy-tool-kit
+	url = git@github.com:cassidycodes/advocacy-tool-kit.git
+	branch = master
+[submodule "public"]
+	path = public
+	url = git@github.com:cassidycodes/advocacy-tool-kit.git
+	branch = master
