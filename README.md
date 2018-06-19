@@ -12,11 +12,13 @@ All development work happens on the `development` branch. The `master` branch is
 brew install hugo
 ```
 
-- Clone the repository.
+- Clone the repository and initialize the submodule.
 
 ```
 git clone --recurse-submodules git@github.com:cassidycodes/advocacy-tool-kit.git
 cd advocacy-tool-kit
+git submodule init
+git submodule update
 ```
 
 - run hugo
