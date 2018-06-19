@@ -17,6 +17,7 @@ brew install hugo
 ```
 git clone --recurse-submodules git@github.com:cassidycodes/advocacy-tool-kit.git
 cd advocacy-tool-kit
+git checkout development
 git submodule init
 git submodule update
 ```
